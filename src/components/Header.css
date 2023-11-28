@@ -1,0 +1,19 @@
+.profilePic {
+  width: 15%;
+  height: 15%;
+}
+.headerContainer {
+  background-image: linear-gradient(
+    rgb(106, 106, 106) 5%,
+    rgb(60, 60, 60),
+    rgb(60, 60, 60),
+    rgb(106, 106, 106)
+  );
+  background-color: rgb(106, 106, 106);
+  color: rgb(208, 182, 13);
+  height: 175px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
