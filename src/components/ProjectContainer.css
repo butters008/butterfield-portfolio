@@ -1,0 +1,14 @@
+.ProjectContainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.Project{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
