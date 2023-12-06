@@ -1,0 +1,38 @@
+
+.headerContainer {
+  background-image: linear-gradient(
+    rgb(106, 106, 106) 5%,
+    rgb(60, 60, 60),
+    rgb(60, 60, 60),
+    rgb(60, 60, 60),
+    rgb(106, 106, 106)
+  );
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  /* background-color: rgb(106, 106, 106); */
+  color: rgb(201, 201, 201);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 1px 15px 15px rgb(163, 227, 248);
+  /* border: 0.5rem outset pink; */
+  border-bottom: 0.5rem outset rgb(37, 37, 37);
+  border-right: 0.5rem outset rgb(37, 37, 37);
+  border-left: 0.5rem outset rgb(37, 37, 37);
+}
+
+.HeaderText{
+  text-align: center;
+}
+
+.HeaderText-Name{
+  font-size: xx-large;
+}
+
+.HeaderText-JobTitle{
+  text-align: center;
+}
