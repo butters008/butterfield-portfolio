@@ -1,6 +1,7 @@
 .BasicBioText{
     width: 60%;
     margin: auto;
+    margin-left: 1em;
     text-align: justify;
     margin-bottom: 3em;
     font-family: Roboto;

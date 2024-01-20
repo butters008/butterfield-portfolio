@@ -2,14 +2,19 @@
   padding-top: 25px;
   padding-bottom: 25px;
   display: flex;
-justify-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  height: 400px;
 }
 
 .ProfilePicContainer{
   grid-area: profilePic;
   display: flex;
   justify-content: end;
-  padding-right: 25px;
+  padding-right: 5px;
+  margin-left:auto;
 }
 
 .profilePic {
@@ -19,19 +24,3 @@ justify-content: center;
 }
 
 
-.basicContact{
-  display: flex;
-  align-items: center;
-  text-align: left;
-  justify-content: flex-start;
-
-}
-
-.basicContact ul{  
-  list-style-type: none;
-}
-
-.basicContact li{  
-  font-size: larger;
-  padding-bottom: 15px;
-}

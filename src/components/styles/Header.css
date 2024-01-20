@@ -13,7 +13,7 @@
   /* background-color: rgb(106, 106, 106); */
   color: rgb(201, 201, 201);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
   border-bottom-left-radius: 15px;
@@ -30,9 +30,29 @@
 }
 
 .HeaderText-Name{
-  font-size: xx-large;
+  font-size: xxx-large;
+margin-bottom: 0%;
 }
 
 .HeaderText-JobTitle{
   text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 10px;
+}
+
+.basicContact{
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  /* padding-bottom: 15px; */
+  margin: auto;
+}
+
+.basicContact a i{
+  font-size: x-large;
+  text-decoration: none;
 }
