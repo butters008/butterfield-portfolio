@@ -1,0 +1,37 @@
+.BasicBioText{
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 3em;
+    font-family: Roboto;
+    font-size: medium;
+    font: 500;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: rgb(121, 120, 120);
+    padding: 20px 10px 20px;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, .75);
+
+}
+
+.languagesIKnow{
+    text-align: center;
+}
+
+.languageList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.langugeIcon{
+    height: 75%;
+    width: 75%;
+}
+/* .languageList li {
+    display: inline-block;
+    margin-right: 10px;
+}  */
